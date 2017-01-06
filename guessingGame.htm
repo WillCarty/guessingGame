@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Match</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css">
+  <link rel="stylesheet" href="guessingGame.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">stLight.options({publisher: "503b0b71-7ad2-4b42-a633-db0afb6c60fe", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+
+<body>
+  <div class="container">
+    <hgroup class="scoreboard">
+      <h1 class="textstyle">Death Match</h1>
+      <h2 class="textstyle">You've have 5 lifes remaining.</h2>
+      <h4 class="textstyle">Welcome to your doom. Match the cards to escape Death. You have 5 tries. If you run out of lives, Death will claim his prize.</h4>
+    </hgroup>
+    
+    <button id="myBtn" style="display:none"></button>
+
+    
+    <div id="myModal" class="modal">
+
+    
+      <div class="modal-content">
+        <span class="close"></span>
+        <p class="textstyle" style="text-align:left">You have met your end. Death takes you!</p>
+
+        <input type="button" value="Reset Game" onClick="window.location.reload()">
+
+      </div>
+
+    </div>
+    
+    <ul class="game">
+
+
+      <li><span>&#9752;</span></li>
+      <li><span>&#9905;</span></li>
+      <li><span>&#9760;</span></li>
+      <li><span>&#9752;</span></li>
+      <li><span>&#9904;</span></li>
+      <li><span>&#9904;</span></li>
+      <li><span>&#9905;</span></li>
+      <li><span>&#9760;</span></li>
+    </ul>
+  </div>
+  <div class="row">
+
+  </div>
+  <div class="row">
+    <h4 class="textstyle"></h4>
+  </div>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="guessingGame.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57ed1aa3358bfe3e"></script>
+<span class='st_sharethis_large' displayText='ShareThis'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_linkedin_large' displayText='LinkedIn'></span>
+<span class='st_pinterest_large' displayText='Pinterest'></span>
+<span class='st_email_large' displayText='Email'></span>
+
+
+</body>
+
+</html>
